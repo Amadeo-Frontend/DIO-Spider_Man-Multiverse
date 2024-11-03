@@ -19,7 +19,7 @@ O projeto visa proporcionar uma experiência visual e interativa sobre o univers
 
 ## 📜 JavaScript - Lógica de Interação
 
-O arquivo `script.js` contém a lógica responsável por tornar a interação com os cards mais dinâmica e atraente. Abaixo estão algumas das principais funções implementadas:
+Abaixo estão algumas das principais funções implementadas:
 
 - **`handleMouseEnter` e `handleMouseLeave`**: Essas funções adicionam e removem a classe `'s-card--hovered'` aos cards quando o mouse passa sobre eles, além de atualizar o `id` do corpo do documento para alterar o estilo conforme o card ativo.
 
@@ -29,7 +29,7 @@ O arquivo `script.js` contém a lógica responsável por tornar a interação co
 
 ## 🎨 CSS - Animações e Estilos
 
-O arquivo `home-page-styles.css` contém estilos que tornam a experiência visual mais envolvente. Abaixo estão algumas das principais animações e técnicas de estilização usadas:
+Abaixo estão algumas das principais animações e técnicas de estilização usadas:
 
 - **✨ Animações de Hover**: Quando o usuário passa o mouse sobre um card (`.s-card--hovered`), a imagem de fundo do card desaparece gradualmente (`opacity: 0;`), e a imagem principal é ampliada (`transform: scale(1.4)`) com um efeito de sombra para dar destaque.
 
